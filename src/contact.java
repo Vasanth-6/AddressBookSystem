@@ -2,78 +2,82 @@ import java.util.Scanner;
 
 public class contact {
 
-    public String firstName;
-    public String lastName;
-    public String address;
-    public String city;
-    public String state;
-    public String pinCode;
-    public String phoneNum;
-    public String email;
+    public static String firstName;
+    public static String lastName;
+    public static String address;
+    public static String city;
+    public static String state;
+    public static String pinCode;
+    public static String phoneNum;
+    public static String email;
 
 
-    public String getFirstName() {
+    public static String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public static void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+    public static String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public static void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getAddress() {
+    public static String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public static void setAddress(String address) {
         this.address = address;
     }
 
-    public String getCity() {
+    public static String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public static void setCity(String city) {
         this.city = city;
     }
 
-    public String getState() {
+    public static String getState() {
         return state;
     }
 
-    public void setState(String state) {
+    public static void setState(String state) {
         this.state = state;
     }
 
-    public String getPinCode(String pinCode) {
+    public static String getPinCode(String pinCode) {
         return pinCode;
     }
 
-    public void setPinCode(String pinCode) {
+    public static void setPinCode(String pinCode) {
         this.pinCode = pinCode;
     }
 
 
-    public String getPhoneNum() {
+    public static String getPhoneNum() {
         return phoneNum;
     }
 
-    public void setPhoneNum(String phoneNum) {
+    public static void setPhoneNum(String phoneNum) {
         this.phoneNum = phoneNum;
     }
 
-    public String getEmail() {
+    public static String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public static String getPinCode() {
+        return pinCode;
+    }
+
+    public static void setEmail(String email) {
         this.email = email;
     }
 
