@@ -17,7 +17,7 @@ public class contact {
     }
 
     public static void setFirstName(String firstName) {
-        this.firstName = firstName;
+        contact.firstName = firstName;
     }
 
     public static String getLastName() {
@@ -25,7 +25,7 @@ public class contact {
     }
 
     public static void setLastName(String lastName) {
-        this.lastName = lastName;
+        contact.lastName = lastName;
     }
 
     public static String getAddress() {
@@ -33,7 +33,7 @@ public class contact {
     }
 
     public static void setAddress(String address) {
-        this.address = address;
+        contact.address = address;
     }
 
     public static String getCity() {
@@ -41,7 +41,7 @@ public class contact {
     }
 
     public static void setCity(String city) {
-        this.city = city;
+        contact.city = city;
     }
 
     public static String getState() {
@@ -49,7 +49,7 @@ public class contact {
     }
 
     public static void setState(String state) {
-        this.state = state;
+        contact.state = state;
     }
 
     public static String getPinCode(String pinCode) {
@@ -57,7 +57,7 @@ public class contact {
     }
 
     public static void setPinCode(String pinCode) {
-        this.pinCode = pinCode;
+        contact.pinCode = pinCode;
     }
 
 
@@ -66,7 +66,7 @@ public class contact {
     }
 
     public static void setPhoneNum(String phoneNum) {
-        this.phoneNum = phoneNum;
+        contact.phoneNum = phoneNum;
     }
 
     public static String getEmail() {
@@ -78,7 +78,7 @@ public class contact {
     }
 
     public static void setEmail(String email) {
-        this.email = email;
+        contact.email = email;
     }
 
 

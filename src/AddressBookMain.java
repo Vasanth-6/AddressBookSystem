@@ -12,7 +12,8 @@ public class AddressBookMain {
         do {
             System.out.println("1. ADD NEW PERSON DETAILS");
             System.out.println("2. SHOW PERSON DETAILS");
-            System.out.println("3. EXIT ADDRESS BOOK");
+            System.out.println("3. EDIT PERSON DETAILS");
+            System.out.println("4. EXIT ADDRESS BOOK");
 
             System.out.println("Please Select the Program : ");
             option = addressBook.details.nextInt();
@@ -25,13 +26,16 @@ public class AddressBookMain {
                     addressBook.ShowContact();
                     break;
                 case 3:
+                    addressBook.editContact();
+                    break;
+                case 4:
                     System.out.println("Exit - Thank You ");
                     break;
                 default:
                     System.out.println("Please Select the Valid Program");
                     break;
             }
-        } while (option != 3);
+        } while (option != 4);
 
     }
 }
