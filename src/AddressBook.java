@@ -66,4 +66,26 @@ public class AddressBook {
             contact.setEmail(details8.next());
         }
     }
+
+    public void deleteContact() {
+
+        System.out.println("Enter the First Name : ");
+        String firstName = details.next();
+
+
+        if (firstName.equalsIgnoreCase(contact.getFirstName())) {
+            System.out.println("The Entered Name is Not Available in Address Book");
+        }
+        else {
+            contact.setFirstName(null);
+            contact.setLastName(null);
+            contact.setAddress(null);
+            contact.setPinCode(null);
+            contact.setState(null);
+            contact.setCity(null);
+            contact.setEmail(null);
+            contact.setPhoneNum(null);
+        }
+
+    }
 }
